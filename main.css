@@ -65,3 +65,35 @@ input[type="radio"] {
 display: inline-block;
 width: 20px;
 }
+
+.container{
+  display: flex;
+}
+
+
+.section1 {
+    width: 50%;
+    position: relative;
+    height: 900px;
+
+    background-color: rgba(55,55,55,0.3);
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    margin: 0 auto;
+}
+
+.section2 {
+    width: 50%;
+    background-color: #EEBF8C;
+}
+#description {
+    color: #fff;
+    padding: 5%;
+    position: absolute;
+    /* bottom: 20px; */
+    left: 16px;
+    text-align: center;
+    font-size: 35px;
+}
